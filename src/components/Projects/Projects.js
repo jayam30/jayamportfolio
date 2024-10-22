@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import devfest from "../../Assets/Projects/devfest.png";
+import qwen2 from "../../Assets/Projects/qwen2.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import ai_size from "../../Assets/Projects/ai size .png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={qwen2}
               isBlog={false}
               title="Product-Size-and-Weight-Detection-from-E-commerce-Images"
               description="Product-Size-and-Weight-Detection-from-E-commerce-Images"
@@ -34,9 +34,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ai_size}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="AI Size Generator"
               description="AI-Powered-Size-Chart-Generator"
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={devfest}
               isBlog={false}
               title="Editor.io"
               description="io_extended_patna_23"
