@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and python. </b>
+                <b className="purple"> C++, Javascript and python, React, Typescript, Nodejs, flutter, Nextjs, Tailwindcss, Redis, etc></b>
               </i>
               <br />
               <br />
@@ -32,24 +32,25 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  AI/ML.
-                </b>
+                <b className="purple">AI/ML.</b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className="purple"> Modern Javascript Library and Frameworks</b>
               </i>
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
+              <br />
+              <br />
+              <span className="purple">
+                I am also a freelancer, offering services to help build custom web applications, AI solutions, and more. 
+                Feel free to get in touch with me for any project or collaboration!
+              </span>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -112,4 +113,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
