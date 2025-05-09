@@ -50,4 +50,28 @@
 // export default App;
 
 'use client';
+import { useEffect } from 'react';
+
+export default function CareersPage() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.workable.com/dash-dynamic-private-limited/widgets.js';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  return (
+    <main className="min-h-screen bg-gray-50 p-8">
+      <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">
+        Join Our Team
+      </h1>
+      <div className="workable-embed" data-widget="jobs"></div>
+    </main>
+  );
+}
+
 
